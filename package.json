@@ -1,0 +1,22 @@
+{
+  "name": "projeto-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marcusfernandes9/projeto-es6.git",
+  "author": "-GitName mfernandes <-GitEmail mfernandes@esss.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "scripts": {
+    "dev": "webpack --mode=development -w"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5"
+  }
+}
